@@ -1,5 +1,5 @@
 [package]
-name = "zip-next"
+name = "zip_next"
 version = "1.1.1"
 authors = [
     "Mathijs van de Nes <git@mathijs.vd-nes.nl>",
@@ -11,6 +11,10 @@ license = "MIT"
 repository = "https://github.com/Pr0methean/zip-next-wrapper.git"
 keywords = ["zip", "archive"]
 rust-version = "1.70.0"
+description = """
+This crate, zip_next, is now a wrapper around `zip`, which is where all future development will take place.
+Please replace this crate with `zip` as a dependency.
+"""
 
 [dependencies]
 zip = "1"
