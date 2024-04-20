@@ -1,2 +1,3 @@
 # zip-next-wrapper
-Wrapper around Rust `zip` crate under the name `zip-next`
+This crate, `zip-next`, is now a wrapper around `zip`, which is where all future development will take place.
+Please replace this crate with `zip` as a dependency.

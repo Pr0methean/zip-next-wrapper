@@ -1,0 +1,16 @@
+[package]
+name = "zip-next"
+version = "1.1.1"
+authors = [
+    "Mathijs van de Nes <git@mathijs.vd-nes.nl>",
+    "Marli Frost <marli@frost.red>",
+    "Ryan Levick <ryan.levick@gmail.com>",
+    "Chris Hennick <hennickc@amazon.com>",
+]
+license = "MIT"
+repository = "https://github.com/Pr0methean/zip-next-wrapper.git"
+keywords = ["zip", "archive"]
+rust-version = "1.70.0"
+
+[dependencies]
+zip = "1"
